@@ -1,0 +1,179 @@
+* {
+    box-sizing: border-box;
+}
+
+#headerImage {
+    background-image: url(images/vecteezy_abstract-low-poly-background-with-triangle-shapes_11512318.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+header {
+    text-align: center;
+    height: 90px;
+    padding-top: 10px;
+    padding-left: 3em;
+}
+
+nav {
+    text-align: center;
+    font-size: 2em;
+    float: left;
+    width: 150px;
+    padding-top: 1.5em;
+    padding-left: 1em;
+    padding-right: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+    font-size: 1.2em;
+}
+
+nav a {
+    text-decoration: none;
+    transition: color 3s ease-out;
+}
+
+#startscn {
+    display: block;
+    height: 600px;
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+body {
+    background-color: #FFFFFF;
+    color: #FFFFFF;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+main {
+    background-color: #444444;
+    margin-left: 180px;
+    padding: 5px 25px 20px 25px;
+    overflow: auto;
+    display: block;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 1.5em;
+
+}
+
+footer {
+    margin-left: 180px;
+    font-size: 75%;
+    font-style: italic;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', serif;
+}
+
+
+dl dt {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+section {
+    float: left;
+    width: 33%;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+#case {
+    float: right;
+}
+
+a:link {
+    color: aqua;
+}
+
+a:visited {
+    color: #f34747
+}
+
+a:hover {
+    color: #dddddd;
+}
+
+#wrapper {
+    background-color: #444444;
+    background-image: linear-gradient(to bottom, #666666, #111111);
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    min-width: 960px;
+    max-width: 2048px;
+    border: 2px solid #111111;
+    box-shadow: 2px 2px #000000;
+}
+
+p {
+    text-indent: .5em;
+}
+
+.backgroundclr {
+    background-color: #111111;
+    margin-left: 180px;
+}
+
+table {
+    border: 2px solid #FFFFFF;
+    border-collapse: collapse;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+tr:nth-of-type(odd) {
+    background-color: #444444;
+}
+
+td, th {
+    padding: 0.5em;
+    border: 2px solid #ffffff;
+}
+
+td {
+    text-align: center;
+}
+
+form {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+label {
+    float: left;
+    display: block;
+    text-align: right;
+    width: 140px;
+    padding-right: 5px;
+}
+
+input {
+    display: block;
+    margin-bottom: 20px;
+}
+
+textarea {
+    display: block;
+    margin-bottom: 20px;
+}
+
+#submit {
+    margin-left: 140px;
+} 
+
+#trade {
+    float: right;
+}
